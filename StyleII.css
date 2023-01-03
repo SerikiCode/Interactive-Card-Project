@@ -1,0 +1,131 @@
+*{
+    font-family: Space Grotesk;
+    font-size: 18px;
+    font-weight: 500;
+    color: hsl(278, 68%, 11%);
+  }
+    body{
+      margin: 0;
+      padding: 0;
+      background-image: url(/bg-main-desktop.png);
+      background-repeat: no-repeat;
+      background-size: 33% 100vh;
+      font-family: Space Grotesk;
+      font-size: 18px;
+      font-weight: 500;
+    }
+    
+  
+    .cardfront{
+      
+      margin: 100px 0 0 130px;
+      width: 400px;
+      height: 210px;
+      background-image: url(/bg-card-front.png);
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      
+    }
+  
+    #card-logo{
+      padding: 30px 0 0 30px;;
+      margin-bottom: 0;
+      
+    }
+      .cardnum{
+        text-align: center;
+        font-size: 24px;
+        font-family: Space Grotesk;
+        color: hsl(0, 0%, 100%);
+        letter-spacing: 4px;
+        margin: 30px 0 0 0;
+        
+      }
+    
+    .card-details{
+      display: flex;
+      justify-content: space-between;
+      
+      margin-bottom: 190px;  
+    }
+  
+    
+    .cardowner, .exp-date, #yr, #mo{
+      color: hsl(0, 0%, 100%);
+      
+    }
+  
+    .cardowner{
+      padding-left: 30px;
+      
+    }
+  
+    .exp-date{
+      padding-right: 30px;
+    }
+  
+    .card-back{
+      background-image: url(/bg-card-back.png);
+      width: 400px;
+      height: 210px;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      margin: 40px 0 0 220px;
+    }
+  
+    .cvc{
+      color: hsl(0, 0%, 100%);
+      padding: 91.5px 0 0 320px;
+    }
+    .complete{
+      min-width: 40%;
+      padding: 0;
+      height: auto;
+      position: absolute;
+      margin: 0 0 0 50%;
+      
+      top: 50%;
+      transform: translateY(-50%);
+  
+  
+    }
+    .icon-complete{
+      width: 500px;
+      height: 100px;
+      text-align: center;
+      
+    }
+    .thank-you, .added{
+      text-align: center;
+    }
+  
+    .thank-you{
+      color: hsl(278, 68%, 11%)
+    }
+  
+    .added{
+      color: hsl(279, 6%, 55%)
+    }
+    .btn{
+      width: 500px;
+      margin-top: 30px;
+      text-align: center;
+    }
+  
+    button{
+      
+    font-family: Space Grotesk;
+    font-size: 18px;
+    color: hsl(0, 0%, 100%);
+    width: 375px;
+    height: 40px;
+    background-color: hsl(278, 68%, 11%);
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+  }
+  
+  button:hover{
+    cursor: pointer;
+  }
+  

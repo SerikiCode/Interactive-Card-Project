@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Card Details Input Page</title>
+  <link rel="stylesheet" href="Style.css">
+</head>
+<style>
+
+
+</style>
+<body>
+
+  <div class="card">
+   <div class="cardfront">
+      <img src="/card-logo.svg" alt="" id='card-logo'>
+      <p class="cardnum">0000 0000 0000 0000</p>
+      <div class="card-details">
+        <p class="cardowner">
+          JOHN DOE
+        </p>
+        <p class="exp-date"><span id="mo">00</span>/<span id="yr">00</span>
+        </p>
+      </div>
+      
+    </div>
+
+   <div class="card-back">
+      <p class="cvc">000</p>
+    </div>
+   </div>
+  </div>
+  <form class="form">
+    <div class="cardholdername">
+      <label for="cardholder">CARDHOLDER</label>
+      <input type="text" id="cardholder" placeholder="e.g. James Bond" >
+    </div>
+    <div class="cardnumber">
+      <label for="cardnumber">CARD NUMBER</label>
+      <input type="text" id="cardnumber" placeholder="e.g. 0000 0000 0000 0000" >
+      <p class="cardnumber-error"></p>
+    </div>
+    <div class="confidential">
+      <div class="expiration">
+        <label for="expiration">EXP. DATE (MM/YY)</label>
+        <input type="text" id="month" class="mo" placeholder="MM">
+        <input type="text" id="year" class="yr" placeholder="YY">
+      </div>
+      <div class="cvc-num">
+        <label for="cvc-num">CVC</label>
+        <input type="text" id="cvc-num" placeholder="e.g. 123">
+      </div>
+      
+    </div>
+    <div class = 'date-cvc-errors'>
+      <p class="date-error"></p>
+      <p class="cvc-error"></p>
+    </div>
+    <button type="button" class="btn">Confirm</button>
+    
+  </form>
+<script src="Index.js"></script>
+</body>
+</html>
